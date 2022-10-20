@@ -14,7 +14,7 @@ body {
   font-family: 'Open Sans', sans-serif;}
 
 h1 {
-  background: #1e1b1e url("../images/travelworthy-logo.gif") no-repeat;
+  background: #1e1b1e url("../images/log.png") no-repeat;
   width: 230px;
   height: 180px;
   float: left;
@@ -61,7 +61,7 @@ p + h2 {
 
 /* details in the black bar */
 
-#hotelName {
+#restaurantName {
   text-transform: uppercase;
   text-align: center; 
   font-size: 120%;
@@ -78,7 +78,7 @@ p + h2 {
   border-bottom: 1px solid #fff; 
   padding-bottom: 1em;}
 
-#rooms {
+#tables {
   font-size: 440%;
   color: #ffb87a;
   display: inline-block;

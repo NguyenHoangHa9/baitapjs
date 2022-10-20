@@ -8,7 +8,7 @@ function checkUsername() {
 }
 function checkEmail() {
     var elMsg = document.getElementById('feedback');
-    if (thi)
+    // if (thi)
 }
 var elUsername = document.getElementById('username');
 

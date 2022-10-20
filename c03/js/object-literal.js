@@ -1,6 +1,6 @@
 // Set up the object
 var hotel = {
-    name : 'Quay',
+    name : 'Hoàng Hà',
     rooms : 40,
     booked : 25,
     checkAvailability : function () {
