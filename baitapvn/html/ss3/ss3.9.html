@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script
+            src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js">
+    </script>
+</head>
+
+<body ng-app="spApp">
+<h1>ng-include directive</h1>
+<div ng-controller="SpController" class="container">
+    <div ng-include="'maiContent.html'"></div>
+    <div ng-include="'sideBar.html'"></div>
+</div>
+</body>
+<script>
+    var MyApp = angular.module('spApp',[]);
+    MyApp.controller("SpController", function ($scope) {
+        $scope.quantity = 1;
+        $scope.price = 9.99;
+    });
+</script>
+</html>
